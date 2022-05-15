@@ -27,3 +27,5 @@ Chromium/Electron based applications, this holds true.
   Chromium, this is a more feasible approach to install a browser with Chrome Dev Tools. Great for web development if
   you want to be absolutely positive that nothing was cached by the browser. Or change settings like language etc and
   then just close the browser instead of settings things back. 
+* [Chrome](chrome) Useful for DRM related testing, as it already bundles Widevine. Also bundles security fixes faster
+  than Brave, which might be a pro for security related tasks.

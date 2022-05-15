@@ -12,5 +12,5 @@ RUN apt -y install apt-transport-https gnupg2 ca-certificates && \
     mkdir /run/user/$UID && \
     chown $UID:$GID /run/user/$UID
 
-USER 1000
+USER $UID
 ENTRYPOINT ["/usr/bin/brave-browser"]
