@@ -31,3 +31,4 @@ Chromium/Electron based applications, this holds true.
   than Brave, which might be a pro for security related tasks.
 * [OpenVPN](openvpn): Runs OpenVPN in a container, allows other containers to connect to the Internet through
   the VPN connection. Check out the [README](openvpn/README.md) in the subfolder.
+* [youtube-dl](youtube-dl): Allows downloading media from different Internet sites

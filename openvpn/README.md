@@ -8,4 +8,4 @@ You can either place the config files in `./configs` and they'll be baked into t
 config files to `/app/configs` during runtime.
 
 Now, to connect another container through the VPN, you can just attach it using this container's network. See
-(youtube-dl)[../youtube-dl/run-with-openvpn.sh] for an example.
+[youtube-dl](../youtube-dl/run-with-openvpn.sh) for an example.
