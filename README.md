@@ -29,3 +29,5 @@ Chromium/Electron based applications, this holds true.
   then just close the browser instead of settings things back. 
 * [Chrome](chrome) Useful for DRM related testing, as it already bundles Widevine. Also bundles security fixes faster
   than Brave, which might be a pro for security related tasks.
+* [OpenVPN](openvpn): Runs OpenVPN in a container, allows other containers to connect to the Internet through
+  the VPN connection. Check out the [README](openvpn/README.md) in the subfolder.
