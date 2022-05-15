@@ -15,7 +15,15 @@ To make it easier to adapt the images to your needs, the build scripts source a 
 repository. Since that file might contain private information, I'm only including an `.env.example` file so
 you can roll your own.
 
+I also provide example run scripts to show which Docker parameters one needs to add. Especially for GUI applications,
+you need to mount a wealth of files into the container to get things like DBus and Pulse Audio working. Especially for
+Chromium/Electron based applications, this holds true.
+
 ## Images
 
 * [baseimage](baseimage): Base images with Ubuntu, mostly a LTS version plus a newer version for packages that are not
   available in the LTS version.
+* [brave](brave): The Brave browser, which is based on Chromium. Especially since Ubuntu started using Snap for
+  Chromium, this is a more feasible approach to install a browser with Chrome Dev Tools. Great for web development if
+  you want to be absolutely positive that nothing was cached by the browser. Or change settings like language etc and
+  then just close the browser instead of settings things back. 
