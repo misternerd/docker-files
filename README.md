@@ -32,4 +32,5 @@ Chromium/Electron based applications, this holds true.
 * [OpenVPN](openvpn): Runs OpenVPN in a container, allows other containers to connect to the Internet through
   the VPN connection. Check out the [README](openvpn/README.md) in the subfolder.
 * [Nextcloud Client](nextcloud-client): Syncs your local folders with the Nextcloud server.
+* [VSCode](vscode): Microsoft Visual Studio Code IDE.
 * [youtube-dl](youtube-dl): Allows downloading media from different Internet sites
